@@ -28,14 +28,6 @@
 
 <p align="right"><a href="#top">Volver arriba</a></p>
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right"><a href="#top">Volver arriba</a></p>
-
-
 
 <!-- CONTACT -->
 ## Contacto
