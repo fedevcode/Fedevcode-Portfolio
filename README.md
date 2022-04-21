@@ -55,7 +55,7 @@
 <!-- GRATITUDE -->
 ## Agradecimientos
 
-* Mariano Weinzettel - Freelance UI Designer [Behance](https://www.behance.net/mweinz?isa0=1) - [Instagram](https://www.instagram.com/marianoweinz/) - [Linkedin](https://ar.linkedin.com/in/mweinz?trk=public_profile_browsemap_profile-result-card_result-card_full-click) <br>
-* Romina Peralta - UX Desinger Trainee [Behance](https://www.behance.net/rominaperaltaux) -  [Linkedin](https://ar.linkedin.com/in/rominaperaltaux?trk=public_profile_browsemap)
+* Mariano Weinzettel - Freelance UI Designer <a href="https://www.behance.net/mweinz">Behance</a> - <a href="https://www.instagram.com/marianoweinz/" target="_blank">Instagram</a> - <a href="https://ar.linkedin.com/in/mweinz" target="_blank">Linkedin</a> <br>
+* Romina Peralta - UX Desinger Trainee <a href="https://www.behance.net/rominaperaltaux" target="_blank">Behance</a> - <a href="https://ar.linkedin.com/in/rominaperaltaux" target="_blank">Linkedin</a> <br>
 
 <p align="right"><a href="#top">Volver arriba</a></p>
