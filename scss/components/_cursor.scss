@@ -1,0 +1,18 @@
+// DOT CURSOR
+.dotCursor {
+    width: 10px;
+    height: 10px;
+    background-color: map-get($colors, 'primary');
+    box-shadow: 0 0 2px 0.5px #64F4AC;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    z-index: 9999999;
+    overflow: hidden;
+    top: -12px;
+    @include media(tabletL) {
+        display: none;
+    }
+}

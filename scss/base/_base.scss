@@ -1,0 +1,55 @@
+// --- BASE  ---
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: $font-poppins;
+    font-size: 16px;
+    font-weight: map-get($font-weight, '400');
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden !important;
+}
+
+// BODY
+body {
+    background-color: map-get($colors, 'bg-color');
+    position: relative;
+    overflow-x: hidden !important;
+}
+
+// HEADER
+header {
+    height: 100vh !important;
+    background-image: url('../../assets/hero/hero_bk.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+// SCROLL BAR
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+} 
+body::-webkit-scrollbar:vertical {
+    width: 14px;
+}
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+body::-webkit-scrollbar:horizontal {
+height: 0.625rem;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: map-get($colors, 'primary');
+    border-radius: 16px;
+    border: 2px solid #1B1F28;
+}
+body::-webkit-scrollbar-track {
+    border-radius: 16px;  
+}

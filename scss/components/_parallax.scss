@@ -1,0 +1,48 @@
+// ALL PARALLAX ELEMENTS
+.parallax {
+    overflow: hidden;
+}
+
+.element-1 {
+    position: absolute;
+    z-index: 9999;
+    top: 0%;
+    user-select: none;
+    right: -7%;
+    @include media(tabletL) {
+        display: none;
+    }
+}
+
+.element-2 {
+    position: absolute;
+    z-index: 9999;
+    top: 110%;
+    user-select: none;
+    left: 0;
+    @include media(tabletL) {
+        display: none;
+    }
+}
+
+.element-3 {
+    position: absolute;
+    z-index: 9999;
+    top: 217%;
+    user-select: none;
+    right: -7%;
+    @include media(tabletL) {
+        display: none;
+    }
+}
+
+.element-4 {
+    position: absolute;
+    z-index: 9999;
+    top: 65%;
+    user-select: none;
+    left: 0px;
+    @include media(tabletL) {
+        display: none;
+    }
+}

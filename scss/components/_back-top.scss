@@ -1,0 +1,37 @@
+// BACK TO TOP BUTTON
+.back-top {
+    width: map-get($spacing, '9');
+    height: map-get($spacing, '9');
+    display: none;
+    align-items: center;
+    justify-content: center;
+	background: map-get($colors, 'primary');
+    cursor: pointer;
+    position: fixed;
+	bottom: map-get($spacing, '5');
+    right: map-get($spacing, '5');
+    border-radius: 8px;
+    animation: backTop 1s alternate;
+    z-index: 99999;
+    transition: all .3s ease-in-out;
+    .icon-back {
+        fill: map-get($colors, 'white');
+    }
+    &:hover {
+        box-shadow: 0 0 10px rgba(100, 244, 172, 0.5);
+        transition: all .3s ease-in-out;
+    }
+    @keyframes backTop {
+        from {
+            margin-right: -1rem;
+            opacity: 0.3;
+        }
+        to {
+            margin-right: 0px;
+            opacity: 1;
+        }
+    };
+    @include media(tabletL) {
+        display: none !important;
+    }
+}
