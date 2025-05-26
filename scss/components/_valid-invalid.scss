@@ -1,0 +1,86 @@
+// ERROR MESSAGE SUBMIT BUTTON
+.contact {
+    &__sendBtnError {
+        width: 200px;
+        height: 64px;
+        border-radius: 8px;
+        background-color: map-get($colors, '8');
+        margin-top: 16px;
+        font-weight: map-get($font-weight, '800');
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        animation: shake 0.3s linear infinite;
+        -moz-animation: shake 0.3s linear infinite;
+        -webkit-animation: shake 0.3s linear infinite;
+        -o-animation: shake 0.3s linear infinite;
+        cursor: not-allowed;
+        @include media(tabletS) {
+            width: 100%;
+        }
+        &:hover {
+            box-shadow: 0px 0px 10px 2px rgba(255, 71, 9, 0.60);
+            -webkit-box-shadow: 0px 0px 10px 2px rgba(255, 71, 9, 0.60);
+            transition: all .3s ease-in-out;
+        }
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(3px, 0);
+    }
+    50% {
+        transform: translate(-3px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@-moz-keyframes shake {
+    0% {
+        -moz-transform: translate(3px, 0);
+    }
+    50% {
+        -moz-transform: translate(-3px, 0);
+    }
+    100% {
+        -moz-transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes shake {
+    0% {
+        -webkit-transform: translate(3px, 0);
+    }
+    50% {
+        -webkit-transform: translate(-3px, 0);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+    }
+}
+
+@-ms-keyframes shake {
+    0% {
+        -ms-transform: translate(3px, 0);
+    }
+    50% {
+        -ms-transform: translate(-3px, 0);
+    }
+    100% {
+        -ms-transform: translate(0, 0);
+    }
+}
+
+@-o-keyframes shake {
+    0% {
+        -o-transform: translate(3px, 0);
+    }
+    50% {
+        -o-transform: translate(-3px, 0);
+    }
+    100% {
+        -o-transform: translate(0, 0);
+    }
+}
