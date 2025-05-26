@@ -30,7 +30,7 @@ body {
 
 header {
   height: 100vh !important;
-  background-image: url("/assets/hero/hero_bk.png");
+  background-image: ("../../assets/hero/hero_bk.png");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
@@ -2048,9 +2048,9 @@ body::-webkit-scrollbar-track {
   }
 }
 .projects__card--one {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgb(0, 0, 0) 100%), url("/assets/projects/fedevcode_cover.png");
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("/assets/projects/fedevcode_cover.png");
-  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("/assets/projects/fedevcode_cover.png");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgb(0, 0, 0) 100%), url("../../assets/projects/fedevcode_cover.png");
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("../../assets/projects/fedevcode_cover.png");
+  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("../../assets/projects/fedevcode_cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
@@ -2058,9 +2058,9 @@ body::-webkit-scrollbar-track {
   background-position: center;
 }
 .projects__card--two {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgb(0, 0, 0) 100%), url("/assets/projects/mubiplex_cover.png");
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("/assets/projects/mubiplex_cover.png");
-  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("/assets/projects/mubiplex_cover.png");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgb(0, 0, 0) 100%), url("../../assets/projects/mubiplex_cover.png");
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("../../assets/projects/mubiplex_cover.png");
+  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("../../assets/projects/mubiplex_cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
@@ -2068,9 +2068,9 @@ body::-webkit-scrollbar-track {
   background-position: center;
 }
 .projects__card--three {
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgb(0, 0, 0) 100%), url("/assets/projects/curriculum_responsive.png");
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("/assets/projects/curriculum_responsive.png");
-  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("/assets/projects/curriculum_responsive.png");
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgb(0, 0, 0) 100%), url("../../assets/projects/curriculum_responsive.png");
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("../../assets/projects/curriculum_responsive.png");
+  background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.01) 60%, #000000 100%), url("../../assets/projects/curriculum_responsive.png");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
